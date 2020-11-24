@@ -1,0 +1,58 @@
+.footer {
+  background: #252c62;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerTrack {
+  height: 80px;
+  width: 100%;
+  padding: 0 4%;
+}
+
+.footerTrack div img {
+  animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(0deg);
+  }
+  from {
+    transform: rotate(-360deg);
+  }
+}
+
+.play {
+  width: 15px;
+  height: 17px;
+}
+
+.play .st_0 {
+  fill: #f9f9f9;
+}
+
+.footerTrack:after {
+  background: none;
+}
+
+@media (max-width: 350px) {
+  .footerTrack {
+    margin: 10px 0;
+  }
+
+  .innerText {
+    width: 50%;
+  }
+}
+
+@media (max-width: 920px) {
+  .footerTrack {
+    height: 60px;
+  }
+}

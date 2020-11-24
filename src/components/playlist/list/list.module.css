@@ -1,0 +1,18 @@
+.wrapList {
+  background: rgba(212, 177, 177, 0.12);
+  height: 68px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1px 6px;
+  border-radius: 5px;
+}
+.currentTrack {
+  font-size: 16px;
+  color: #ff9900;
+}
+.trackListTitle {
+  margin: 0;
+  color: #fff;
+}

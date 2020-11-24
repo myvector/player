@@ -1,0 +1,35 @@
+.inputSearch {
+  border-radius: 5px;
+  background: #ccc;
+  width: 90%;
+  border: none;
+  display: block;
+  margin-left: auto;
+  padding: 0 10px;
+  padding: 7px 10px;
+  font-size: 14px;
+  color: #000;
+  font-weight: 600;
+}
+
+.inputSearch:focus {
+  outline: none;
+}
+
+.backButton {
+  position: absolute;
+  left: 4%;
+  height: 17px;
+  top: 25px;
+}
+
+.backIcon {
+  fill: #fff;
+  width: 14px;
+}
+
+@media (max-width: 320px) and (max-height: 480px) {
+  .inputSearch {
+    width: 88%;
+  }
+}

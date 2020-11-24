@@ -1,0 +1,38 @@
+.list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 14px 0;
+  list-style: none;
+  background: #fdfdfd;
+}
+
+.list:last-child {
+  margin-bottom: 0;
+}
+
+.list:first-child {
+  margin-top: 0;
+}
+
+.list p,
+.list h2 {
+  color: #6d6a6a;
+}
+
+.add {
+  border: 1px solid #6d6a6a;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+}
+
+.plus {
+  width: 10px;
+  height: 10px;
+  display: flex;
+}

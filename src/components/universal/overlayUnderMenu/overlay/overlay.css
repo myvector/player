@@ -1,0 +1,31 @@
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  right: 0px;
+  bottom: 0px;
+  top: 0px;
+  left: 0px;
+  overflow-y: auto;
+  z-index: 1999;
+  opacity: 0;
+}
+
+.overlay-enter,
+.overlay-enter-active,
+.overlay-enter-done,
+.overlay-exit,
+.overlay-exit-active {
+  background: #000;
+  transition: 0.2s opacity ease;
+}
+
+.overlay-enter-active,
+.overlay-enter-done,
+.overlay-exit {
+  opacity: 0.4;
+}
+
+.overlay-exit-active {
+  opacity: 0;
+}

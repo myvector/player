@@ -1,0 +1,48 @@
+.select {
+  width: calc(100% - 8%);
+  margin: 0 auto;
+  padding: 0 5px;
+  border-radius: 5px;
+  background: #ccc;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99;
+  top: calc(18% - 17.5px / 2);
+}
+
+.selectText {
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+  line-height: 1;
+}
+
+@media (min-width: 920px) {
+  .select {
+    width: 60%;
+    left: 4%;
+    transform: none;
+    width: calc(55.25% + 37.42px);
+  }
+}
+@media (min-width: 1400px) {
+  .select {
+    width: calc(41.32% + 37.5px);
+  }
+}
+
+@media (orientation: landscape) {
+  .select {
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    top: calc(18% - 11px / 2);
+  }
+  .selectText {
+    font-size: 12px;
+  }
+}

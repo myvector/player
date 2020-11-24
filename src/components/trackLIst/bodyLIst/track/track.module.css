@@ -1,0 +1,204 @@
+.innerImg {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  margin-right: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.img {
+  width: 100%;
+}
+
+.track {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  height: 80px;
+}
+
+.track:after {
+  position: absolute;
+  content: '';
+  height: 1px;
+  width: 100%;
+  background: #fff;
+  bottom: -5px;
+}
+
+.innerInfo {
+  width: 59%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.title {
+  font-size: 18px;
+  margin-bottom: 0.5%;
+  margin-top: 0;
+}
+
+.text {
+  font-size: 12px;
+}
+
+.title,
+.text {
+  color: #fff;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 100%;
+}
+
+.equilizer {
+  height: 22px;
+  width: 19px;
+  transform: rotate(180deg);
+  position: absolute;
+  right: 25px;
+  top: calc(50% - 11px);
+}
+
+.equilizer.pause .bar {
+  animation-play-state: paused;
+}
+
+.bar {
+  fill: #ff9900;
+  width: 18px;
+  animation: equalize 4s 0s infinite;
+}
+
+.bar:nth-child(1) {
+  animation-delay: -1.9s;
+}
+
+.bar:nth-child(2) {
+  animation-delay: -2s;
+}
+
+.bar:nth-child(3) {
+  animation-delay: -2.3s;
+}
+
+@keyframes equalize {
+  0% {
+    height: 60px;
+  }
+  4% {
+    height: 50px;
+  }
+  8% {
+    height: 40px;
+  }
+  12% {
+    height: 30px;
+  }
+  16% {
+    height: 20px;
+  }
+  20% {
+    height: 30px;
+  }
+  24% {
+    height: 40px;
+  }
+  28% {
+    height: 10px;
+  }
+  32% {
+    height: 40px;
+  }
+  36% {
+    height: 60px;
+  }
+  40% {
+    height: 20px;
+  }
+  44% {
+    height: 40px;
+  }
+  48% {
+    height: 70px;
+  }
+  52% {
+    height: 30px;
+  }
+  56% {
+    height: 10px;
+  }
+  60% {
+    height: 30px;
+  }
+  64% {
+    height: 50px;
+  }
+  68% {
+    height: 60px;
+  }
+  72% {
+    height: 70px;
+  }
+  76% {
+    height: 80px;
+  }
+  80% {
+    height: 70px;
+  }
+  84% {
+    height: 60px;
+  }
+  88% {
+    height: 50px;
+  }
+  92% {
+    height: 60px;
+  }
+  96% {
+    height: 70px;
+  }
+  100% {
+    height: 80px;
+  }
+}
+
+@media (max-width: 920px) {
+  .track {
+    margin: 10px 0;
+    height: 68px;
+  }
+}
+
+@media (max-height: 500px) {
+  .title {
+    font-size: 14px;
+    margin-bottom: 1%;
+  }
+  .text {
+    font-size: 10px;
+  }
+
+  .track {
+    margin: 10px 0;
+    height: 68px;
+  }
+}
+
+@media (max-width: 500px) {
+  .title {
+    font-size: 14px;
+    margin-bottom: 1%;
+  }
+  .text {
+    font-size: 10px;
+  }
+
+  .track {
+    margin: 10px 0;
+    height: 68px;
+  }
+}

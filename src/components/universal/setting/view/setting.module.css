@@ -1,0 +1,8 @@
+.circle {
+  fill: #d8d8d8;
+  width: 6px;
+  height: 18px;
+  margin-left: auto;
+  padding: 5px;
+  box-sizing: content-box;
+}

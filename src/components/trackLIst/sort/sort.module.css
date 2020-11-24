@@ -1,0 +1,21 @@
+.title {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.text {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.sort {
+  width: 200px;
+}
+
+@media (max-width: 600px) {
+  .title {
+    margin-bottom: 8px;
+  }
+}

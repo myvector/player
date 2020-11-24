@@ -1,0 +1,267 @@
+.info {
+  width: 100%;
+  height: 100%;
+  background: rgba(31, 37, 82, 1);
+  background: -moz-linear-gradient(
+    45deg,
+    rgba(31, 37, 82, 1) 0%,
+    rgba(117, 33, 78, 1) 75%,
+    rgba(117, 33, 78, 1) 80%
+  );
+  background: -webkit-gradient(
+    left bottom,
+    right top,
+    color-stop(0%, rgba(31, 37, 82, 1)),
+    color-stop(75%, rgba(117, 33, 78, 1)),
+    color-stop(80%, rgba(117, 33, 78, 1))
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    rgba(31, 37, 82, 1) 0%,
+    rgba(117, 33, 78, 1) 75%,
+    rgba(117, 33, 78, 1) 80%
+  );
+  background: -o-linear-gradient(
+    45deg,
+    rgba(31, 37, 82, 1) 0%,
+    rgba(117, 33, 78, 1) 75%,
+    rgba(117, 33, 78, 1) 80%
+  );
+  background: -ms-linear-gradient(
+    45deg,
+    rgba(31, 37, 82, 1) 0%,
+    rgba(117, 33, 78, 1) 75%,
+    rgba(117, 33, 78, 1) 80%
+  );
+  background: linear-gradient(
+    45deg,
+    rgba(31, 37, 82, 1) 0%,
+    rgba(117, 33, 78, 1) 75%,
+    rgba(117, 33, 78, 1) 80%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f2552', endColorstr='#75214e', GradientType=1 );
+  overflow: hidden;
+}
+
+.text {
+  color: white;
+  text-align: center;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: inherit;
+  overflow: hidden;
+}
+
+.boldText {
+  font-weight: bold;
+}
+
+.list {
+  padding: 0;
+  margin-left: 50px;
+  list-style-type: none;
+  width: 300px;
+}
+
+.innerImage {
+  height: 500px;
+}
+
+.image {
+  height: 100%;
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.65);
+}
+
+.innerInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 93%;
+}
+
+@media (orientation: landscape) {
+  .innerInfo {
+    flex-direction: row;
+  }
+  .text {
+    text-align: left;
+  }
+
+  .list {
+    margin-top: 0px;
+  }
+}
+
+@media (orientation: portrait) {
+  .innerInfo {
+    flex-direction: column;
+  }
+  .list {
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+}
+
+@media (max-height: 1030px) and (max-width: 870px) {
+  .innerImage {
+    height: 300px;
+  }
+
+  .innerInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .text {
+    text-align: left;
+  }
+}
+
+@media (orientation: portrait) and (max-height: 1030px) {
+  .list {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 380px) {
+  .innerImage {
+    height: 250px;
+  }
+  .list {
+    width: 250px;
+  }
+}
+
+@media (orientation: landscape) and (max-height: 870px) {
+  .innerImage {
+    height: 300px;
+  }
+
+  .innerInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-height: 625px) and (orientation: landscape) {
+  .innerInfo {
+    flex-direction: row;
+  }
+  .innerImage {
+    height: 250px;
+  }
+  .list {
+    width: 250px;
+    margin: auto 0;
+    margin-left: 30px;
+  }
+}
+
+@media (max-height: 580px) and (orientation: landscape) {
+  .innerInfo {
+    flex-direction: row;
+  }
+  .innerImage {
+    height: 200px;
+  }
+  .list {
+    width: 250px;
+    margin: auto 0;
+    margin-left: 30px;
+    font-size: 14px;
+  }
+}
+
+@media (orientation: landscape) and (max-width: 700px) {
+  .innerInfo {
+    flex-direction: row;
+  }
+  .innerImage {
+    height: 200px;
+  }
+  .list {
+    width: 250px;
+    margin: auto 0;
+    margin-left: 30px;
+    font-size: 14px;
+  }
+}
+
+@media (orientation: landscape) and (max-width: 550px) {
+  .innerImage {
+    height: 200px;
+  }
+  .list {
+    margin-left: 15px;
+    font-size: 14px;
+  }
+}
+
+@media (orientation: portrait) and (max-height: 700px) {
+  .innerInfo {
+    flex-direction: column;
+  }
+  .innerImage {
+    height: 250px;
+  }
+  .list {
+    width: 250px;
+    margin-left: 0px;
+    margin-top: 15px;
+    font-size: 12px;
+    width: 200px;
+  }
+  .innerImage {
+    height: 200px;
+  }
+}
+
+@media (orientation: portrait) and (max-height: 500px) {
+  .innerInfo {
+    flex-direction: column;
+  }
+  .innerImage {
+    height: 250px;
+  }
+  .list {
+    width: 250px;
+    margin-left: 0px;
+    margin-top: 15px;
+    font-size: 10px;
+    width: 150px;
+  }
+  .innerImage {
+    height: 150px;
+  }
+}
+
+@media (max-height: 300px) and (orientation: landscape) {
+  .innerImage {
+    height: 150px;
+  }
+  .list {
+    width: 150px;
+  }
+  .text {
+    font-size: 12px;
+  }
+}
+
+@media (max-height: 400px) and (orientation: portrait) {
+  .innerImage {
+    height: 100px;
+  }
+  .list {
+    width: 100px;
+  }
+  .text {
+    font-size: 8px;
+  }
+}
+
+@media (max-height: 300px) {
+  .text {
+    font-size: 10px;
+  }
+}

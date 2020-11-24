@@ -1,0 +1,74 @@
+.header {
+  width: 100%;
+  background: #333366;
+  height: 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.65);
+  -moz-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.65);
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.65);
+}
+
+.st0 {
+  fill: #d8d8d8;
+  width: 34px;
+  height: 4px;
+}
+
+.burger {
+  width: 30px;
+  height: 20px;
+  padding: 7px 0 7px 7px;
+  box-sizing: content-box;
+}
+
+@media (min-width: 920px) and (min-height: 500px) {
+  .header {
+    height: 7%;
+  }
+}
+@media (max-width: 700px) and (max-height: 420px) {
+  .header {
+    height: 9%;
+  }
+}
+
+@media (max-width: 700px) and (max-height: 370px) {
+  .burger {
+    width: 20px;
+    height: 14px;
+  }
+  .header {
+    height: 7%;
+  }
+}
+
+@media (max-width: 920px) and (max-height: 400px) {
+  .burger {
+    width: 20px;
+    height: 15px;
+  }
+}
+
+@media (max-width: 800px) and (max-height: 400px) {
+  .burger {
+    width: 20px;
+    height: 14px;
+  }
+}
+
+@media (max-width: 570px) and (max-height: 400px) {
+  .burger {
+    width: 20px;
+    height: 14px;
+  }
+}
+
+@media (max-height: 568px) and (max-width: 350px) {
+  .burger {
+    width: 25px;
+    height: 14px;
+  }
+}

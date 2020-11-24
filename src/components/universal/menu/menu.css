@@ -1,0 +1,57 @@
+.menuWrap-enter,
+.menuWrap-exit-active,
+.menuWrap-enter-active,
+.modalWrap-enter,
+.modalWrap-enter-active,
+.modalWrap-enter-done,
+.modalWrap-exit,
+.modalWrap-exit-active,
+.menuWrapRight-enter,
+.menuWrapRight-enter-active,
+.menuWrapRight-exit-active {
+  transition: all 0.2s ease;
+}
+
+/* right */
+.menuWrapRight-enter {
+  transform: translateX(100%);
+}
+
+.menuWrapRight-enter-active {
+  transform: translateX(0%);
+}
+
+.menuWrapRight-exit-active {
+  transform: translateX(100%);
+}
+
+/* left */
+
+.menuWrap-enter {
+  transform: translateX(-100%);
+}
+
+.menuWrap-exit-active {
+  transform: translateX(-100%);
+}
+
+.menuWrap-enter-active {
+  transform: translateX(0%);
+}
+/* modal */
+.modalWrap-enter {
+  transform: translateY(0%);
+}
+
+.modalWrap-enter-active,
+.modalWrap-enter-done {
+  transform: translateY(calc(-50% - 50vh));
+}
+
+.modalWrap-exit {
+  transform: translateY(-100%);
+}
+
+.modalWrap-exit-active {
+  transform: translateY(0%);
+}

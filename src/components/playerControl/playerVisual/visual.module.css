@@ -1,0 +1,506 @@
+.visual {
+  height: 59%;
+  width: 69%;
+  padding: 11% 0 7%;
+  margin: 0 auto 0;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  clip-path: circle(100% at center);
+}
+
+.visualInner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-radius: 100%;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 0px 26px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 26px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 26px -2px rgba(0, 0, 0, 0.75);
+}
+
+.visualInner img {
+  width: 100%;
+}
+
+@media (min-width: 920px) and (min-height: 200px) {
+  .visual {
+    height: 5%;
+    width: 5%;
+    padding: 5% 0 5%;
+  }
+}
+
+@media (min-width: 920px) and (min-height: 300px) {
+  .visual {
+    height: 10%;
+    width: 10%;
+    padding: 7% 0 6%;
+  }
+}
+
+@media (min-width: 920px) and (min-height: 375px) {
+  .visual {
+    padding: 9% 0 9%;
+  }
+}
+
+@media (min-width: 920px) and (min-height: 450px) {
+  .visual {
+    height: 23%;
+    width: 15%;
+    padding: 11% 0 11%;
+  }
+}
+
+@media (min-width: 920px) and (min-height: 500px) {
+  .visual {
+    height: 45%;
+    width: 18%;
+    padding: 8% 0 8%;
+  }
+}
+
+@media (min-width: 990px) and (min-height: 200px) {
+  .visual {
+    height: 3%;
+    width: 4%;
+    padding: 3% 0 2%;
+  }
+}
+
+@media (min-width: 990px) and (min-height: 300px) {
+  .visual {
+    height: 4.5%;
+    width: 4.5%;
+    padding: 4.5% 0 4.5%;
+  }
+}
+
+@media (min-width: 990px) and (min-height: 375px) {
+  .visual {
+    height: 7%;
+    width: 7%;
+    padding: 6% 0 6%;
+  }
+}
+
+@media (min-width: 990px) and (min-height: 450px) {
+  .visual {
+    height: 8%;
+    width: 8%;
+    padding: 7% 0 8%;
+  }
+}
+
+@media (min-width: 990px) and (min-height: 500px) {
+  .visual {
+    height: 35%;
+    width: 10%;
+    padding: 7% 0 8%;
+  }
+}
+
+/* ////// */
+
+@media (min-width: 920px) and (min-height: 600px) {
+  .visual {
+    height: 48%;
+    width: 21%;
+    padding: 8% 0 8%;
+  }
+}
+
+@media (min-width: 920px) and (min-height: 600px) {
+  .visual {
+    height: 53%;
+    width: 25%;
+  }
+}
+
+@media (min-width: 920px) and (min-height: 700px) {
+  .visual {
+    height: 52%;
+    width: 26%;
+  }
+}
+
+@media (min-width: 920px) and (min-height: 900px) {
+  .visual {
+    height: 52%;
+    width: 36%;
+  }
+}
+
+@media (min-width: 920px) and (min-height: 1200px) {
+  .visual {
+    height: 64%;
+    width: 50%;
+  }
+}
+
+@media (min-width: 1050px) and (min-height: 500px) {
+  .visual {
+    height: 45%;
+    width: 13%;
+  }
+}
+
+@media (min-width: 1050px) and (min-height: 550px) {
+  .visual {
+    height: 52%;
+    width: 23%;
+  }
+}
+
+@media (min-width: 1050px) and (min-height: 850px) {
+  .visual {
+    height: 58%;
+    width: 35%;
+  }
+}
+
+@media (min-width: 1200px) and (min-height: 550px) {
+  .visual {
+    height: 50%;
+    width: 17%;
+  }
+}
+
+@media (min-width: 1400px) and (min-height: 670px) {
+  .visual {
+    height: 50%;
+    width: 20%;
+  }
+}
+
+@media (min-width: 1400px) and (min-height: 870px) {
+  .visual {
+    height: 58%;
+    width: 24%;
+  }
+}
+
+@media (min-width: 1500px) and (min-height: 300px) {
+  .visual {
+    padding: 3% 0 3%;
+  }
+}
+
+@media (min-width: 1500px) and (min-height: 350px) {
+  .visual {
+    padding: 5% 0 5%;
+  }
+}
+
+@media (min-width: 1500px) and (min-height: 450px) {
+  .visual {
+    padding: 6% 0 6%;
+    height: 8%;
+    width: 9%;
+  }
+}
+
+@media (min-width: 1500px) and (min-height: 500px) {
+  .visual {
+    padding: 7% 0 7%;
+    height: 9%;
+    width: 11%;
+  }
+}
+
+@media (min-width: 1500px) and (min-height: 560px) {
+  .visual {
+    padding: 9% 0 9%;
+    height: 9%;
+    width: 11%;
+  }
+}
+
+@media (min-width: 1500px) and (min-height: 660px) {
+  .visual {
+    padding: 9% 0 9%;
+    height: 55%;
+    width: 20%;
+  }
+}
+
+@media (min-width: 1600px) and (min-height: 300px) {
+  .visual {
+    padding: 3.5% 0 3.5%;
+  }
+}
+
+@media (min-width: 1600px) and (min-height: 375px) {
+  .visual {
+    padding: 3.5% 0 3.5%;
+    width: 4%;
+  }
+}
+
+@media (min-width: 1600px) and (min-height: 450px) {
+  .visual {
+    padding: 3.5% 0 3.5%;
+    width: 4%;
+    height: 20%;
+  }
+}
+
+@media (min-width: 1600px) and (min-height: 500px) {
+  .visual {
+    padding: 5% 0 5%;
+    width: 4%;
+    height: 20%;
+  }
+}
+
+@media (min-width: 1600px) and (min-height: 550px) {
+  .visual {
+    width: 10%;
+    height: 45%;
+  }
+}
+
+@media (min-width: 1600px) and (min-height: 700px) {
+  .visual {
+    width: 15%;
+    padding: 6% 0 6%;
+    height: 50%;
+  }
+}
+
+@media (min-width: 1600px) and (min-height: 900px) {
+  .visual {
+    width: 20%;
+    height: 60%;
+  }
+}
+
+@media (min-width: 1600px) and (min-height: 1200px) {
+  .visual {
+    width: 30%;
+    height: 66%;
+  }
+}
+
+/* 920 ++ */
+
+@media (max-width: 920px) {
+  .visual {
+    width: 35%;
+    height: 48%;
+    padding: 9% 0 9%;
+  }
+}
+
+@media (max-width: 768px) and (max-height: 1024px) {
+  .visual {
+    width: 45%;
+  }
+}
+
+@media (max-width: 920px) and (max-height: 720px) {
+  .visual {
+    height: 53%;
+    width: 30%;
+  }
+}
+
+@media (max-width: 920px) and (max-height: 600px) {
+  .visual {
+    height: 46%;
+    width: 20%;
+    padding: 8% 0 7%;
+  }
+}
+
+@media (max-width: 920px) and (max-height: 500px) {
+  .visual {
+    height: 45%;
+    width: 17%;
+  }
+}
+
+@media (max-width: 920px) and (max-height: 430px) {
+  .visual {
+    height: 40%;
+    width: 12%;
+  }
+}
+
+@media (max-width: 920px) and (max-height: 370px) {
+  .visual {
+    width: 10%;
+    height: 38%;
+    padding: 6% 0 7%;
+  }
+}
+
+@media (max-width: 920px) and (max-height: 330px) {
+  .visual {
+    height: 34%;
+    width: 8%;
+    padding: 6% 0 7%;
+  }
+}
+
+@media (max-width: 920px) and (max-height: 315px) {
+  .visual {
+    padding: 5% 0 4%;
+  }
+}
+
+@media (max-width: 800px) and (max-height: 870px) {
+  .visual {
+    height: 50%;
+    width: 39%;
+    padding: 2% 0 5%;
+  }
+}
+
+@media (max-width: 800px) and (max-height: 720px) {
+  .visual {
+    height: 45%;
+    width: 30%;
+    padding: 2% 0 5%;
+  }
+}
+
+@media (max-width: 800px) and (max-height: 600px) {
+  .visual {
+    height: 40%;
+    width: 16%;
+    padding: 8% 0 7%;
+  }
+}
+@media (max-height: 870px) and (max-width: 500px) {
+  /*origin */
+  .visual {
+    height: 54%;
+    width: 69%;
+    padding: 11% 0 9%;
+  }
+}
+
+@media (max-width: 800px) and (max-height: 350px) {
+  .visual {
+    height: 36%;
+    width: 13%;
+  }
+}
+
+@media (max-width: 800px) and (max-height: 300px) {
+  .visual {
+    height: 28%;
+    width: 8%;
+    padding: 5% 0 5%;
+  }
+}
+
+@media (max-width: 800px) and (max-height: 250px) {
+  .visual {
+    height: 24%;
+    width: 5%;
+    padding: 3% 0 2%;
+  }
+}
+
+@media (max-width: 700px) and (max-height: 500px) {
+  .visual {
+    height: 40%;
+    width: 16%;
+    padding: 8% 0 7%;
+  }
+}
+
+@media (max-width: 700px) and (max-height: 370px) {
+  .visual {
+    height: 36%;
+    width: 12%;
+    padding: 8% 0 7%;
+  }
+}
+
+@media (max-width: 700px) and (max-height: 330px) {
+  .visual {
+    height: 32%;
+    width: 10%;
+    padding: 6% 0 7%;
+  }
+
+  .visual {
+    height: 26%;
+    width: 10%;
+    padding: 5% 0 5%;
+  }
+}
+
+@media (max-width: 700px) and (max-height: 300px) {
+  .visual {
+    height: 25%;
+    width: 8%;
+    padding: 6% 0 5%;
+  }
+}
+
+@media (max-width: 700px) and (max-height: 250px) {
+  .visual {
+    height: 5%;
+    width: 6%;
+    padding: 5% 0 3%;
+  }
+}
+
+@media (max-width: 420px) and (max-height: 620px) {
+  .visual {
+    height: 56%;
+    width: 60%;
+  }
+}
+
+@media (max-height: 680px) and (max-width: 500px) {
+  .visual {
+    height: 50%;
+    width: 47%;
+    padding: 5% 0 5%;
+  }
+}
+
+@media (max-height: 680px) and (max-width: 410px) {
+  .visual {
+    height: 50%;
+    width: 60%;
+    padding: 5% 0 5%;
+  }
+}
+
+@media (max-height: 520px) and (max-width: 500px) {
+  .visual {
+    height: 42%;
+    width: 22%;
+    padding: 5% 0 5%;
+  }
+}
+@media (max-height: 400px) and (max-width: 500px) {
+  .visual {
+    height: 25%;
+    width: 8%;
+    padding: 6% 0 5%;
+  }
+}
+
+@media (max-width: 330px) {
+  .visual {
+    height: 50%;
+    width: 60%;
+  }
+}
+
+@media (max-height: 450px) and (max-width: 330px) {
+  .visual {
+    height: 43%;
+    width: 40%;
+  }
+}

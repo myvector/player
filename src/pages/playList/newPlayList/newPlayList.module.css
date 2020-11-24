@@ -1,0 +1,30 @@
+.addPlayList {
+  display: block;
+  height: 68px;
+  width: 100%;
+  text-align: left;
+  margin-top: 10px;
+  background: transparent;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-bottom: 1px solid white;
+}
+
+.addPlayList:focus {
+  outline: none;
+}
+
+.innerList {
+  max-height: calc(90vh - 120px);
+  overflow: auto;
+  padding: 0;
+  width: 75vw;
+  margin: 0;
+}
+
+@media (min-width: 650px) {
+  .innerList {
+    width: 500px;
+  }
+}

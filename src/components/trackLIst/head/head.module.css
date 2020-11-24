@@ -1,0 +1,258 @@
+.head {
+  height: 80px;
+  box-sizing: border-box;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.search {
+  border-radius: 5px;
+  background: #ccc;
+  width: 90%;
+  border: none;
+  display: block;
+  margin-left: auto;
+  padding: 0 10px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.searchIcon {
+  width: 16px;
+  height: 16px;
+}
+
+.searchIcon .st0 {
+  fill: #000839;
+}
+
+.sort {
+  fill: #d8d8d8;
+}
+
+.borderFullScreen {
+  fill: none;
+  stroke: #d8d8d8;
+  stroke-width: 3.5;
+  stroke-miterlimit: 10;
+}
+
+#sort,
+#fullScreen {
+  padding: 10px;
+  box-sizing: content-box;
+  padding-right: 0;
+  width: 14px;
+  height: 14px;
+  display: block;
+  margin-left: 10px;
+  padding-bottom: 0;
+  margin-bottom: 10px;
+}
+
+#setting {
+  position: absolute;
+  width: 22px;
+  height: 30px;
+  left: 0;
+}
+.st0 {
+  fill: #d8d8d8;
+}
+
+.subOptionsInner {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (min-width: 920px) {
+  #sort,
+  #fullScreen {
+    padding: 20px;
+    padding-right: 0;
+    padding-bottom: 0;
+  }
+}
+
+@media (min-width: 920px) and (min-height: 700px) {
+  .visual {
+    height: 58%;
+    width: 35%;
+  }
+}
+
+@media (min-width: 1050px) and (min-height: 500px) {
+  .visual {
+    height: 58%;
+    width: 30%;
+  }
+}
+
+@media (min-width: 1050px) and (min-height: 550px) {
+  .visual {
+    height: 52%;
+    width: 23%;
+  }
+}
+
+@media (min-width: 1200px) and (min-height: 550px) {
+  .visual {
+    height: 50%;
+    width: 20%;
+  }
+}
+
+@media (min-width: 1400px) and (min-height: 670px) {
+  .visual {
+    height: 50%;
+    width: 20%;
+  }
+}
+
+@media (min-width: 1400px) and (min-height: 870px) {
+  .visual {
+    height: 60%;
+    width: 24%;
+  }
+}
+
+/* 920 ++ */
+
+@media (max-width: 920px) and (max-height: 920px) {
+  .visual {
+    height: 51%;
+    width: 33%;
+    padding: 8% 0 7%;
+  }
+}
+
+@media (max-width: 920px) and (max-height: 720px) {
+  .visual {
+    height: 53%;
+    width: 30%;
+  }
+}
+
+@media (max-width: 920px) and (max-height: 600px) {
+  .visual {
+    height: 50%;
+    width: 20%;
+    padding: 8% 0 7%;
+  }
+}
+
+@media (max-width: 920px) and (max-height: 500px) {
+  .visual {
+    height: 45%;
+    width: 17%;
+  }
+}
+
+@media (max-width: 920px) and (max-height: 430px) {
+  .visual {
+    height: 40%;
+    width: 12%;
+  }
+}
+
+@media (max-width: 920px) and (max-height: 370px) {
+  .visual {
+    width: 10%;
+    height: 38%;
+    padding: 6% 0 7%;
+  }
+}
+
+@media (max-width: 920px) and (max-height: 330px) {
+  .visual {
+    height: 34%;
+    width: 8%;
+    padding: 6% 0 7%;
+  }
+}
+
+@media (max-width: 920px) and (max-height: 315px) {
+  .visual {
+    padding: 5% 0 4%;
+  }
+}
+
+@media (max-width: 800px) and (max-height: 870px) {
+  /*origin */
+  .visual {
+    height: 61%;
+    width: 69%;
+    padding: 11% 0 7%;
+  }
+}
+
+@media (max-width: 800px) and (max-height: 600px) {
+  .visual {
+    height: 40%;
+    width: 16%;
+    padding: 8% 0 7%;
+  }
+}
+
+@media (max-width: 800px) and (max-height: 300px) {
+  .visual {
+    height: 30%;
+    width: 10%;
+    padding: 6% 0 7%;
+  }
+}
+
+@media (max-width: 700px) and (max-height: 500px) {
+  .visual {
+    height: 40%;
+    width: 16%;
+    padding: 8% 0 7%;
+  }
+}
+
+@media (max-width: 700px) and (max-height: 370px) {
+  .visual {
+    height: 36%;
+    width: 12%;
+    padding: 8% 0 7%;
+  }
+}
+
+@media (max-width: 700px) and (max-height: 330px) {
+  .visual {
+    height: 32%;
+    width: 10%;
+    padding: 6% 0 7%;
+  }
+}
+
+@media (max-width: 420px) and (max-height: 620px) {
+  .visual {
+    height: 56%;
+    width: 60%;
+  }
+}
+
+@media (max-width: 320px) and (max-height: 700px) {
+  #sort,
+  #fullScreen {
+    margin-top: 12px;
+  }
+}
+
+@media (max-width: 320px) and (max-height: 480px) {
+  .search {
+    width: 88%;
+  }
+  #sort,
+  #fullScreen {
+    margin-top: 10px;
+  }
+}
